@@ -1,0 +1,10 @@
+body { font-family: sans-serif; max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+form { display: flex; gap: .5rem; flex-wrap: wrap; margin-bottom: 1rem; }
+input, select, button { padding: .5rem; }
+input { flex: 1; min-width: 160px; }
+table { width: 100%; border-collapse: collapse; }
+th, td { border-bottom: 1px solid #ddd; padding: .5rem; text-align: left; }
+#msg { color: #b00020; min-height: 1.2em; }
+.p-baja  { background: #d4edda; color: #155724; }
+.p-media { background: #fff3cd; color: #856404; }
+.p-alta  { background: #f8d7da; color: #721c24; font-weight: bold; }

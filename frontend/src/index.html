@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Control de incidencias</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Control de incidencias</h1>
+  <form id="form">
+    <input id="titulo" placeholder="Título (3 a 100 caracteres)" required>
+    <input id="descripcion" placeholder="Descripción">
+    <select id="prioridad">
+      <option value="baja">prioridad baja</option>
+      <option value="media" selected>prioridad media</option>
+      <option value="alta">prioridad alta</option>
+    </select>
+    <select id="estado">
+      <option value="abierta">abierta</option>
+      <option value="en_proceso">en proceso</option>
+      <option value="resuelta">resuelta</option>
+    </select>
+    <button>Crear incidencia</button>
+  </form>
+  <p id="msg"></p>
+  <table>
+    <thead><tr><th>ID</th><th>Título</th><th>Descripción</th><th>Prioridad</th><th>Estado</th><th></th></tr></thead>
+    <tbody id="lista"></tbody>
+  </table>
+  <script src="app.js"></script>
+</body>
+</html>
